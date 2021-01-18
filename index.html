@@ -1,0 +1,47 @@
+<center>
+<input type="text" id="textbox" name="textbox" class="textbox">
+<br>
+
+<table class="table">
+    <tr>
+        <button id="1" onclick="gettext(1)">1</button>
+        <button id="2" onclick="gettext(2)">2</button>
+        <button id="3"onclick="gettext(3)">3</button>
+        <button id="+" onclick="gettext('+')">+</button>
+    </tr><br>
+    <tr>
+        <button id="4"onclick="gettext(4)">4</button>
+        <button id="5"onclick="gettext(5)">5</button>
+        <button id="6"onclick="gettext(6)">6</button>
+        <button id="-"onclick="gettext('-')">-</button><br>
+        <button id="7"onclick="gettext(7)">7</button>
+        <button id="8"onclick="gettext(8)">8</button>
+        <button id="9"onclick="gettext(9)">9</button>
+        <button id="*"onclick="gettext('*')">*</button><br>
+       
+           
+           <button  id="0"onclick="gettext(0)">0</button>
+           <button  id="/"onclick="gettext('/')">/</button>
+           <button  id="=" onclick="result()">=</button>
+           <button  id="c" onclick="clean()">c</button>
+
+        
+    </tr>
+</table>
+
+</center>
+<script src="app.js"></script>
+<style>
+    .textbox{
+        width: 100px;
+       
+    }
+    .button{
+        width: 50;
+    }
+    .table{
+        border: 50px;
+        background-color: aqua;
+    }
+    
+</style>
